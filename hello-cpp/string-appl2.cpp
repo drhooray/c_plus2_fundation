@@ -13,7 +13,7 @@ int main()
         string wholeName = yourName.assign(yourName);
         cout << wholeName <<endl;
         string firstName = wholeName.assign(wholeName, 0, 5);
-        cout << wholeName <<endl; 
+        cout << wholeName <<endl;
         int lastNameIndex = yourName.find("jason", 0);
         cout << "index for lastNameIndex" << lastNameIndex <<endl;
 
@@ -25,6 +25,6 @@ int main()
 
         yourName.replace(6, 5, "Maximus");
         cout << yourName <<endl;
-        
+
         return 0;
 }

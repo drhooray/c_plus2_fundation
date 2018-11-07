@@ -35,7 +35,7 @@ main()
      /* the process and all threads before the threads have completed.   */
 
      pthread_join( thread1, NULL);
-     pthread_join( thread2, NULL); 
+     pthread_join( thread2, NULL);
 
      exit(EXIT_SUCCESS);
 }

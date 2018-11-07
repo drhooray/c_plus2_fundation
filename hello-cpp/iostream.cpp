@@ -25,7 +25,7 @@ int main()
 		// Open a stream to append to whats there with ios::app
 		// ios::binary : Treat the file as binary
 		// ios::in : Open a file to read input
-		// ios::trunc : Default 
+		// ios::trunc : Default
 		// ios::out : Open a file to write output
 
 	if(!writer2){

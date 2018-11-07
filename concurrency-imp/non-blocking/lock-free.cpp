@@ -15,4 +15,4 @@ int main(){
 	std::cout<<myInt<<std::endl;
 	return 0;
 }
-	
+

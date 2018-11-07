@@ -9,7 +9,7 @@ int main()
 	string str4(str1, 6, 6);
 
 	string str5(str2.begin(),str2.begin() + 5);
-	
+
 	cout << str1 <<endl;
 	cout << str2 <<endl;
 	cout << str3 <<endl;
@@ -40,7 +40,7 @@ int main()
 	cout <<str4<<endl;
 
 	if (str6.find(str4) != string::npos)
-			cout << "str4 found in str6 at " <<str6.find(str4) 
+			cout << "str4 found in str6 at " <<str6.find(str4)
 				<< "pos " <<endl;
 	else
 			cout << "str4 not found in str6 "<<endl;

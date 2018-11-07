@@ -16,7 +16,7 @@ int main()
 		cout<<"failed enter a number"<<endl;
 		return -1;
 	}
-		
+
 	try{
 		if(number2 != 0){
 			cout<< number/number2 <<endl;
