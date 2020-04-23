@@ -1,0 +1,14 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+_x	lamda.cpp	/^	int _x;$/;"	m	class:foo	file:
+foo	lamda.cpp	/^	foo():_x(3){}$/;"	f	class:foo
+foo	lamda.cpp	/^class foo{$/;"	c	file:
+func	lamda.cpp	/^	void func(){$/;"	f	class:foo
+main	after-capt-lamda.cpp	/^int main(){$/;"	f
+main	capt-lamda.cpp	/^int main(){$/;"	f
+main	lamda.cpp	/^int main(){$/;"	f
+show	capt-lamda.cpp	/^void show(int &value){$/;"	f
