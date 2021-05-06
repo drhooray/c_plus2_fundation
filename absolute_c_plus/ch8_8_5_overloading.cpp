@@ -51,7 +51,17 @@ ostream& operator <<(ostream& output, const Money& amount){
 
 
 istream& operator >>(istream& input, Money& amount){
-
+	char dollarSign;
+	input >> dollarSign;
+	if (dollarSign != '$'){
+		std::cout << "no dollar sign in money input. \n";
+		exit(1);
+	}
+	double amountDouble;
+	input >> amountDouble;
+	amount.dollar = amount.dollarsPart(amountDouble);
+	amount.cents = amount.centsPart(amountDouble);
+	return input;
 }
 
 
