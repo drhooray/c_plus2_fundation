@@ -11,7 +11,7 @@ public:
 private:
 	char first;
 	char second;
-}
+};
 
 
 int main()
@@ -21,6 +21,7 @@ int main()
 	a[2] = 'B';
 	std::cout<<"a [1] and a [2] \n";
 	std::cout << a[1] << a[2] << std::endl;
+	return 0;
 
 }
 
