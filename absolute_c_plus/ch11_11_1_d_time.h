@@ -12,8 +12,8 @@ public:
 	void advance(int hrAdded, int minAdded);
 
 	friend bool operator ==(const digiTime& time1, const digiTime& time2);
-	friend istream& operator >>(istream& ins, digiTime& theObject);
-	friend ostream& operator <<(ostream& outs, const digiTime& theObject);
+	friend istream& operator >>(istream& ins, digiTime& theObj);
+	friend ostream& operator <<(ostream& outs, const digiTime& theObj);
 
 private:
 	int hr;
