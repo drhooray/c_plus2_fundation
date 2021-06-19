@@ -1,6 +1,6 @@
 #include <iostream>
-#include "sale.h"
-
+#include "ch15_1_base_class_sale.hpp"
+//#include "sale.h"
 using std::cout;
 
 namespace localsale{
@@ -17,7 +17,7 @@ namespace localsale{
 		}
 	}
 
-	double sale::bill()const{
+	double sale::bill() const{
 		return price;
 	}
 
@@ -39,6 +39,6 @@ namespace localsale{
 	}
 
 	bool operator < (const sale& first, const sale& second){
-		return (first.price < second.price);
+		return (first.bill() < second.bill());
 	}
 }

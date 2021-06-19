@@ -1,7 +1,7 @@
-#infef SALE_H
+#ifndef SALE_H
 #define SALE_H
 
-namesapce localsale {
+namespace localsale {
 	class sale{
 	public:
 		sale();
@@ -9,7 +9,7 @@ namesapce localsale {
 		double getPrice() const;
 		void setPrice(double newPrice);
 		virtual double bill() const;
-		double saving(const sale& other) const;
+		double savings(const sale& other) const;
 	private:
 		double price;
 	};
