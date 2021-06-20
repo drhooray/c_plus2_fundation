@@ -1,4 +1,4 @@
-#include "ch15_3_discoutsale.h"
+#include "ch15_3_discountsale.h"
 
 namespace localsale {
 	discountSale::discountSale():sale(), discount(0) {
@@ -11,12 +11,7 @@ namespace localsale {
 		return discount;
 	}
 	void discountSale::setDiscount(double nDiscount) {
-		if (nDiscount >=0)
-			sale.discount = nDiscount;
-		else {
-			std::cout<<"can't use negative numbmer";
-			exit(1);
-		}
+			discount = nDiscount;
 	}
 	double discountSale::bill() const {
 		double fraction = discount/100;

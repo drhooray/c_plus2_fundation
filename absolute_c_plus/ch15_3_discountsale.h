@@ -1,6 +1,6 @@
 #ifndef DISCOUNTSALE_H
 #define DISCOUNTSALE_H
-#include "sale.h"
+#include "ch15_1_base_class_sale.hpp"
 
 namespace localsale{
 	class discountSale:public sale {

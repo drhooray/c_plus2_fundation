@@ -1,6 +1,6 @@
 #include <iostream>
 #include "ch15_1_base_class_sale.hpp"
-#include <ch15_3_discountsale.hpp>
+#include "ch15_3_discountsale.h"
 
 using std::cout;
 using std::endl;
@@ -10,7 +10,7 @@ int main(){
 	localsale::sale simple(10);
 	localsale::discountSale discount(11, 10);
 
-	cout.setf(ios::fexed);
+	cout.setf(ios::fixed);
 	cout.setf(ios::showpoint);
 	cout.precision(2);
 
